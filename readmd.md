@@ -13,11 +13,7 @@ Get All Transactions
 Get Transaction by ID
 Update Transaction
 Delete Transaction
-Get Summary
-Database Schema
-Postman Collection
-Screenshots
-Installation
+
 To set up the Personal Expense Tracker API locally, follow the instructions below:
 
 Prerequisites
@@ -35,7 +31,9 @@ Create a .env file in the root directory and add your MongoDB connection string:
 
 MONGO_URI=mongodb+srv://<username>:<password>@cluster0.f7wmb0k.mongodb.net/expenseTracker?retryWrites=true&w=majority
 
+Run the server:
 
+node app.js
 
 
 The server will start on http://localhost:5000. You can now use Postman or other tools to test the API endpoints.
@@ -78,7 +76,7 @@ Description: Retrieves all transactions.
 
 ![alt text](image-2.png)
 
-##get all details in the db
+###get all details in the db
 
 
 4. Delete Transaction
